@@ -12,7 +12,7 @@ def main():
     fahrenheit= (9 / 5) * celcius + 32
 
     #outputs the calcualted fahrenheit in the desired format
-    print(fahrenheit)
+    print(f'Farenheit: \t {fahrenheit:.2f}')
     """
     ########################################
     # Do not delete the return statement
