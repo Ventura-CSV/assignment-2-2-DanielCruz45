@@ -9,7 +9,7 @@ def main():
     celcius = int(input('Degrees Celcius: '))
 
     #translates celcius to fahrenheit using the related equation
-    fahrenheit= 0
+    fahrenheit= (9 / 5) * celcius + 32
 
     #outputs the calcualted fahrenheit in the desired format
     print(fahrenheit)
